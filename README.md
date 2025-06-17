@@ -43,7 +43,7 @@ npm install
 
 ### 3. Konfigurasi database:
 
-- Buat database MySQL (misal: admin_db)
+- Buat database MySQL (misal: toko_db)
 - import file sql ke database, atau buat tabel manual
 
 ```sql
