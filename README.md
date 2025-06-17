@@ -70,13 +70,15 @@ jumlah INT
 
 ### 4. Konfigurasi koneksi database:
 
-- Buka file config/db.js dan sesuaikan konfigurasi koneksi database:
+- Buat file .env dan sesuaikan konfigurasi koneksi database:
 
 ```javascript
-host: "localhost",
-user: "root",
-password: "",
-database: "admin_db"
+DB_HOST=localhost
+DB_PORT=3306
+DB_USER=root
+DB_PASSWORD=
+DB_NAME=toko_db
+PORT=3000
 ```
 
 ### 5. Jalankan aplikasi:
