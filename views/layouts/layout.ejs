@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Admin Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- icon -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100">
+    <header
+      class="bg-blue-600 text-white text-center p-4 text-xl font-semibold"
+    >
+      Admin Page
+    </header>
+
+    <main class="max-w-4xl mx-auto p-6">
+      <!-- konten akan masuk di sini -->
+      <%- include(`../${view}`) %>
+    </main>
+
+    <footer class="text-center text-gray-500 my-12">
+      &copy; <%= new Date().getFullYear() %> Admin Toko | Sulaiman Faqih
+    </footer>
+  </body>
+</html>
