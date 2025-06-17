@@ -32,16 +32,20 @@ Proyek ini merupakan aplikasi web sederhana untuk mengelola data pembelian dan s
 
 ```bash
 git clone https://github.com/CH2-PS447-PathWay/project-admin-page.git
+```
+
+### 2. Masuk ke dalam folder:
+```bash
 cd project-admin-page
 ```
 
-### 2. Install dependencies:
+### 3. Install dependencies:
 
 ```bash
 npm install
 ```
 
-### 3. Konfigurasi database:
+### 4. Konfigurasi database:
 
 - Buat database MySQL (misal: toko_db)
 - import file sql ke database, atau buat tabel manual
@@ -68,7 +72,7 @@ jumlah INT
 );
 ```
 
-### 4. Konfigurasi koneksi database:
+### 5. Konfigurasi koneksi database:
 
 - Buat file .env dan sesuaikan konfigurasi koneksi database:
 
@@ -81,7 +85,7 @@ DB_NAME=toko_db
 PORT=3000
 ```
 
-### 5. Jalankan aplikasi:
+### 6. Jalankan aplikasi:
 
 ```bash
 npm run dev
